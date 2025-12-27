@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RaGlib</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.ATParseTree.Next" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.ATParseTree.F" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.ATParseTree.isOP" -->
+        <member name="T:RaGlib.Automata.DeltaQSigma">
+            Delta: Q x Sigma -> Q
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Automata.DeltaQSigma.LHSS" -->
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Automata.DeltaQSigma.RHSQ" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Automata.DeltaQSigma.#ctor(RaGlib.Core.Symbol,RaGlib.Core.Symbol,System.Collections.Generic.List{RaGlib.Core.Symbol})" -->
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Automata.DeltaQSigmaGamma.RHSZ" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Automata.DeltaQSigmaGamma.#ctor(RaGlib.Core.Symbol,RaGlib.Core.Symbol,RaGlib.Core.Symbol,System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})" -->
+        <member name="M:RaGlib.Automata.DeltaQSigmaGammaSix.#ctor(System.String,System.String,System.String,System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            Delta (  q1   ,   a    ,   z   ) = {  {q}   ,   {z1z2...} }
+            Delta (  q1   ,   a    ,   z   ) = {  {q}   ,   {z1z2...}, {b1b2.....} }
+            RightO b1,b2 выходные операционные символы
+                    LHSQ    LHSS     LHSZ         RHSQ       RHSZ        RHSNew
+        </member>
+        <member name="M:RaGlib.Automata.TuringMachine.PrintTransitions">
+            <summary>
+            Вывод дельта-правил
+            </summary>
+        </member>
+        <member name="M:RaGlib.Compound_FSAutomate.Union(RaGlib.FSAutomate[])">
+            <summary>
+            Объединение массива автоматов — последовательный вызов Union2.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Core.AGrammar.T" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Core.AGrammar.V" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Core.AGrammar.P" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Core.AGrammar.#ctor" -->
+        <member name="M:RaGlib.Core.AGrammar.producingSymb">
+            Определение множествa производящих нетерминальных символов
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.ReachableByOneStep(System.String)">
+            Определение множества достижимых символов за 1 шаг
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.Reachable(System.String)">
+            Определение множества достижимых символов
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.unUsefulDelete">
+            Удаление бесполезных символов
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.EpsDelete">
+            Удаление эпсилон правил
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.LeftRecursDelete_new6">
+             Удаление левой рекурсии Работает корректно
+            
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.FromWhat(System.String)">
+            Откуда можем прийти в состояние
+        </member>
+        <member name="M:RaGlib.Core.AGrammar.CheckExist(System.String,System.Collections.Generic.List{RaGlib.Core.Symbol})">
+             Алгоритм  Хомского
+            
+        </member>
+        <member name="T:RaGlib.Core.CSProduction">
+            <summary>
+            Правило продукции для КЗ грамматики
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Core.CSProduction.RHS" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Core.CSProduction.Count" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Core.CSProduction.#ctor(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})" -->
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Core.Production.RHS" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Core.Production.Count" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Core.Production.#ctor(RaGlib.Core.Symbol,System.Collections.Generic.List{RaGlib.Core.Symbol})" -->
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Core.Symbol.attr" -->
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Core.Symbol.production" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Core.Symbol.Sentinel" -->
+        <member name="T:RaGlib.FSAutomate">
+            Finite State automata (КА)
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:RaGlib.Grammars.ATGrammar.Rules" -->
+        <member name="M:RaGlib.Grammars.ATGrammar.#ctor(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol_Operation},RaGlib.Core.Symbol)">
+            Конструктор
+        </member>
+        <member name="M:RaGlib.Grammars.ATGrammar.Addrule(RaGlib.Core.Symbol,System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Grammars.AttrFunction})">
+            Добавление правила
+        </member>
+        <member name="M:RaGlib.Grammars.ATGrammar.Print">
+            Печать грамматики
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Grammars.AttrFunction.RH" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Grammars.AttrFunction.#ctor(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})" -->
+        <member name="T:RaGlib.Grammars.CSGrammar">
+            <summary>
+            Класс Контекстно-зависимой грамматики (CSGGrammar)
+            </summary>
+        </member>
+        <member name="P:RaGlib.Grammars.CSGrammar.CSProductions">
+            <summary>
+            Возвращает терминалы грамматики
+            </summary>
+        </member>
+        <member name="P:RaGlib.Grammars.CSGrammar.Terminals">
+            <summary>
+            Возвращает терминалы грамматики
+            </summary>
+        </member>
+        <member name="P:RaGlib.Grammars.CSGrammar.NonTerminals">
+            <summary>
+            Возвращает нетерминалы грамматики
+            </summary>
+        </member>
+        <member name="P:RaGlib.Grammars.CSGrammar.StartSymbol">
+            <summary>
+            Возвращает начальный символ грамматики
+            </summary>
+        </member>
+        <member name="M:RaGlib.Grammars.CSGrammar.#ctor(System.Collections.Generic.HashSet{RaGlib.Core.Symbol},System.Collections.Generic.HashSet{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.CSProduction},RaGlib.Core.Symbol)">
+            <summary>
+            Конструктор CSGGrammar
+            </summary>
+            <param name="terminals">Множество терминалов</param>
+            <param name="nonTerminals">Множество нетерминалов</param>
+            <param name="productions">Список продукций грамматики</param>
+            <param name="startSymbol">Начальный символ грамматики</param>
+        </member>
+        <member name="M:RaGlib.Grammars.CSGrammar.IsContextSensitive">
+            <summary>
+            Проверяет, является ли грамматика контекстно-зависимой
+            </summary>
+            <returns>true, если грамматика контекстно-зависимая, иначе false</returns>
+        </member>
+        <member name="M:RaGlib.Grammars.CSGrammar.ToOrderTwo">
+            <summary>
+            Приводит КЗ грамматику к линейной (порядка 2) согласно Лемме 1
+            </summary>
+            <returns>Эквивалентная грамматика порядка 2</returns>
+        </member>
+        <member name="M:RaGlib.Grammars.CSGrammar.ReduceOrderByOne(RaGlib.Grammars.CSGrammar)">
+            <summary>
+            Уменьшает порядок грамматики на 1 согласно Лемме 1
+            </summary>
+        </member>
+        <member name="M:RaGlib.Grammars.CSGrammar.ToLinearBoundedGrammar">
+            <summary>
+            Преобразует текущую линейную КЗ грамматику в эквивалентную линейно ограниченную грамматику
+            </summary>
+            <returns>Новая грамматика CSGGrammar, линейно ограниченная</returns>
+        </member>
+        <member name="M:RaGlib.Grammars.CSGrammar.PrintGrammar">
+            <summary>
+            Выводит грамматику в консоль
+            </summary>
+        </member>
+        <member name="M:RaGlib.GrammarWithOpSymbol.Transform">
+            <summary>
+            Преобразует грамматику в конечный автомат,
+            поддерживающий операционные символы.
+            </summary>
+        </member>
+        <member name="T:RaGlib.CanonicalLRParser">
+            Канонический LR(1)
+            **Важно**:
+            - Начальным нетерминалом может быть только S.
+            - Символы грамматики могут состоять только из одного символа.
+            - Использует собственные представления для грамматики.
+            - Пересчитывает все составляющие при каждом вызове Execute.
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.CanonicalLRParser.Terminals" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.CanonicalLRParser.NonTerminals" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.CanonicalLRParser.#ctor" -->
+        <member name="F:RaGlib.CanonicalLRParser.combinations">
+            список найденных комбинаций
+        </member>
+        <member name="M:RaGlib.CanonicalLRParser.GenerateRulesWithout(System.Char)">
+             создает список правил, в которых вычеркнут один или более символов А в правой части
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.CanonicalLRParser.RemoveEpsilonRules" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.CanonicalLRParser.ComputeFirstSets" -->
+        <member name="M:RaGlib.CanonicalLRParser.First(System.Char)">
+            функции доступа ко множествам FIRST
+        </member>
+        <member name="M:RaGlib.CanonicalLRParser.GoTo(System.Collections.ArrayList,System.Char)">
+            Функция GoTo
+        </member>
+        <member name="M:RaGlib.CanonicalLRParser.SetsEqual(System.Collections.ArrayList,System.Collections.ArrayList)">
+            Процедура получения последовательности С
+        </member>
+        <member name="M:RaGlib.CanonicalLRParser.Contains(System.Collections.ArrayList,System.Collections.ArrayList)">
+            Функция SetsEqual() используется функцией Contatains,
+            определяющей, является ли множество g элементом списка С
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Automate.Sigma" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Automate.Delta" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Automate.Q0" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Automate.F" -->
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.Automate.config" -->
+        <!-- Badly formed XML comment ignored for member "M:RaGlib.Automate.#ctor" -->
+        <member name="M:RaGlib.Automate.EpsClosure(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            Все достижимые состояния из множества состояний states
+            по правилам в которых ,LeftTerm = term
+        </member>
+        <member name="M:RaGlib.Automate.move(System.Collections.Generic.List{RaGlib.Core.Symbol},System.String)">
+            Возвращает множество достижимых состояний по символу term
+            из currStates за один шаг
+        </member>
+        <member name="M:RaGlib.Automate.FromStateToStates(System.String,System.String)">
+            Все состояния в которые есть переход из текущего состояния currState
+            по символу term за один шаг
+        </member>
+        <member name="M:RaGlib.Automate.BuildDeltaDKAutomate(RaGlib.FSAutomate,System.Boolean)">
+            Построить Delta-правила ДКА
+        </member>
+        <member name="M:RaGlib.Automate.ReachableStates(System.String,System.String)">
+            Состояние StateTo достижимо по дельта-правилам из состояния currState
+        </member>
+        <member name="T:RaGlib.PDA">
+            Push Down Automate МП = {}
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:RaGlib.PDA.Z" -->
+        <member name="M:RaGlib.PDA.#ctor(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol},RaGlib.Core.Symbol,RaGlib.Core.Symbol,System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            МП для дельта-правил
+        </member>
+        <member name="M:RaGlib.PDA.#ctor(RaGlib.Grammar)">
+            Алгоритм построения МП  (PDA) по КС-грамматике
+        </member>
+        <member name="M:RaGlib.PDA.findDelta(System.String,RaGlib.Core.Symbol)">
+            Поиск правила delta (q0,a,z0) по символу "a" и в вершине магазина "z0"
+        </member>
+        <member name="M:RaGlib.SetL.Set.Print(System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            Распечатать (вывести) множество A
+        </member>
+        <member name="M:RaGlib.SetL.Set.Belongs(RaGlib.Core.Symbol,System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            Принадлежит ли element множеству A
+        </member>
+        <member name="M:RaGlib.SetL.Set.Union(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            Объединение множеств A or B
+        </member>
+        <member name="M:RaGlib.SetL.Set.Intersect(System.Collections.Generic.List{RaGlib.Core.Symbol},System.Collections.Generic.List{RaGlib.Core.Symbol})">
+            Пересечение множеств A and B
+        </member>
+        <member name="T:RaGlib.SLRGrammar.PairSymbInt">
+            Пара символ-число
+        </member>
+        <member name="M:RaGlib.SLRGrammar.PairSymbInt.Equals(RaGlib.SLRGrammar.PairSymbInt)">
+            Проверка двух пар на равенство
+        </member>
+        <member name="T:RaGlib.SLRGrammar.PairComparer">
+            Компаратор пар. Требуется для корректной работы Dictionary
+        </member>
+        <member name="M:RaGlib.SLRGrammar.PairComparer.Equals(RaGlib.SLRGrammar.PairSymbInt,RaGlib.SLRGrammar.PairSymbInt)">
+            Метод проверки равенства
+        </member>
+        <member name="M:RaGlib.SLRGrammar.PairComparer.GetHashCode(RaGlib.SLRGrammar.PairSymbInt)">
+            Метод вычисления хеш-функции
+        </member>
+        <member name="T:RaGlib.SLRGrammar.State">
+            LR(0)-ситуация - продукция с точкой в некоторой позиции правой части
+        </member>
+        <member name="P:RaGlib.SLRGrammar.State.rulePos">
+            Номер правила грамматика
+        </member>
+        <member name="P:RaGlib.SLRGrammar.State.dotPos">
+            Позиция точки в правой части правила
+        </member>
+        <member name="M:RaGlib.SLRGrammar.State.GetRHSymbol(System.Collections.Generic.List{RaGlib.Core.Production})">
+            Получение символа, стоящего после точки
+        </member>
+        <member name="M:RaGlib.SLRGrammar.State.GetLHSymbol(System.Collections.Generic.List{RaGlib.Core.Production})">
+            Получение символа, стоящего в левой части ситуации
+        </member>
+        <member name="M:RaGlib.SLRGrammar.State.Debug(System.Collections.Generic.List{RaGlib.Core.Production})">
+            Отладочная печать ситуации
+        </member>
+        <member name="F:RaGlib.SLRGrammar.phi">
+            Канонический набор множеств LR(0)-ситуаций
+        </member>
+        <member name="F:RaGlib.SLRGrammar.LRA">
+            LR(0)-автомат переходов грамматики
+        </member>
+        <member name="F:RaGlib.SLRGrammar.M">
+            Управляющая SLR-таблица, представленная в виде словаря
+        </member>
+        <member name="F:RaGlib.SLRGrammar.startSymbol">
+            Новый начальный нетерминал S'
+        </member>
+        <member name="M:RaGlib.SLRGrammar.InitAutomate">
+            Инициализация автомата и добавление символов в алфавит
+        </member>
+        <member name="M:RaGlib.SLRGrammar.Closure(System.Collections.Generic.List{RaGlib.SLRGrammar.State})">
+            Построение замыкания множества LR(0)-ситуаций
+        </member>
+        <member name="M:RaGlib.SLRGrammar.Goto(System.Collections.Generic.List{RaGlib.SLRGrammar.State},RaGlib.Core.Symbol)">
+            Вычисление множества GOTO(I, X)
+        </member>
+        <member name="M:RaGlib.SLRGrammar.FindDeltaRuleInLRA(RaGlib.Automata.DeltaQSigma)">
+            Возвращает истину, если уже есть правило перехода в автомате
+        </member>
+        <member name="M:RaGlib.SLRGrammar.FindSetOfStates(System.Collections.Generic.List{System.Collections.Generic.List{RaGlib.SLRGrammar.State}},System.Collections.Generic.List{RaGlib.SLRGrammar.State})">
+            Возвращает индекс замыкания множества LR(0)-ситуаций в указанном
+            каноническом наборе. Если множество не было найдено, возращает -1
+        </member>
+        <member name="M:RaGlib.SLRGrammar.BuildLRAutomate">
+            Построение канонического набора множеств LR(0)-ситуаций и автомата перехода между ситуациями
+        </member>
+        <member name="M:RaGlib.SLRGrammar.DebugControlTable">
+            Отладочная печать управляющей таблицы M
+        </member>
+        <member name="M:RaGlib.SLRGrammar.BuildControlTable">
+            Построение управляющей таблицы КС-грамматики
+        </member>
+        <member name="M:RaGlib.SLRGrammar.Inference">
+            Выполнение LR-анализа
+            LR-анализатор состоит из выходного буфера, выхода, стека,
+            программы-драйвера и таблицы синтаксического анализа,
+            состоящей из двух частей (ACTION и GOTO). Программа-драйвера
+            одинакова для всех LR-анализаторов; от одного к другому
+            меняются таблицы синтаксического анализа. Программа
+            синтаксического анализа по одному считывает символы из
+            входного буфера.
+        </member>
+        <member name="T:SDT.ParseTree">
+            Дерево разбора
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.ParseTree.Next" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.ParseTree.Id" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.ParseTree.#ctor(SDT.Symbol)" -->
+        <member name="M:SDT.ParseTree.Add(SDT.ParseTree)">
+            Добавление дочернего узла
+        </member>
+        <member name="M:SDT.ParseTree.Add(SDT.Symbol)">
+            Добавление дочернего узла
+        </member>
+        <member name="M:SDT.ParseTree.Execute">
+            Выполнение СУТ в процессе прямого обхода дерева
+        </member>
+        <member name="M:SDT.ParseTree.Clone">
+            Глубокая копия
+        </member>
+        <member name="M:SDT.ParseTree.Print(System.Int32)">
+            Печать дерева в консоль
+        </member>
+        <member name="M:SDT.ParseTree.PrintToFile(System.String,System.Boolean)">
+            Генерация файла для GraphViz
+            Получение изображения: `dot parse_tree.dot -Tpng > parse_tree.png`
+        </member>
+        <member name="M:SDT.ParseTree.PrintToFile(System.IO.StreamWriter,System.Int32@,System.Boolean)">
+            Генерация файла для GraphViz
+        </member>
+        <member name="T:SDT.ParseTreeTranslator">
+            Получение дерева разбора в ходе выполнения соответствующей СУТ
+            **Важно:** Символы грамматики не должны содержать атрибут "node"
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.ParseTreeTranslator.Root" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.ParseTreeTranslator.StartNoTerm" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.ParseTreeTranslator.AttachNodes(System.String,System.Collections.Generic.List{System.String},System.Int32)" -->
+        <member name="T:SDT.Symbol">
+            Обычный символ грамматики
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.Symbol.Attributes" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.Symbol.#ctor(System.String)" -->
+        <member name="M:SDT.Symbol.op_Implicit(System.String)~SDT.Symbol">
+            Неявное преобразование строки в Symbol
+        </member>
+        <member name="M:SDT.Symbol.op_Implicit(System.Collections.Generic.Dictionary{System.String,System.Object})~SDT.Symbol">
+            Неявное преобразование словаря в Symbol
+            Словарь должен иметь запись "NAME", значение которой будет использовано как имя/значение символа
+        </member>
+        <member name="M:SDT.Symbol.op_Implicit(SDT.Types.Actions)~SDT.Symbol">
+            Неявное преобразование функции в OperationSymbol
+        </member>
+        <member name="P:SDT.Symbol.Item(System.String)">
+            Доступ к атрибутам
+        </member>
+        <member name="M:SDT.Symbol.AddAttributes(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            Клонирование словаря атрибутов
+        </member>
+        <member name="M:SDT.Symbol.Equals(System.Object)">
+            Равенсто. Требуется для Dictionary и HashSet
+        </member>
+        <member name="M:SDT.Symbol.GetHashCode">
+            Хеш-функция. Требуется для Dictionary и HashSet
+        </member>
+        <member name="M:SDT.Symbol.op_Equality(SDT.Symbol,SDT.Symbol)">
+            Оператор взят из документации
+        </member>
+        <member name="M:SDT.Symbol.Clone">
+            Глубокая копия
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.Symbol.Sentinel" -->
+        <member name="T:SDT.OperationSymbol">
+            Операционный символ (Семантическое действие)
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.OperationSymbol.StringView" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.OperationSymbol.OutAttrs" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.OperationSymbol.InAttrs" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.OperationSymbol.#ctor(SDT.Types.Actions)" -->
+        <member name="M:SDT.OperationSymbol.Clone">
+            Поверхностная копия
+        </member>
+        <member name="T:SDT.Rule">
+            Правило синтаксически управляемой схемы трансляции
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.Rule.RightChain" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.Rule.#ctor(SDT.Symbol,System.Collections.Generic.List{SDT.Symbol})" -->
+        <member name="M:SDT.Rule.ToString">
+            " -> " разделитель. e вместо эпсилон. {} вместо операционного символа
+        </member>
+        <member name="T:SDT.Scheme">
+            Синтаксически управляемая ( САС ????????????????? не верно) схема трансляции
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.Scheme.T" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.Scheme.V" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.Scheme.Prules" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.Scheme.FirstSet" -->
+        <member name="M:SDT.Scheme.ComputeFirstSets">
+            Перенесен с небольшими изменениями из LLParser
+        </member>
+        <member name="M:SDT.Scheme.ComputeFollowSets">
+            Перенесен с большими изменениями из LLParser
+        </member>
+        <member name="T:SDT.LLTranslator">
+            Реализация L-атрибутного ?????? СУТ в процессе LL анализа
+        </member>
+        <member name="T:SDT.LLTranslator.SynthSymbol">
+            Запись синтеза. Используется в LL-трансляции.
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.LLTranslator.SynthSymbol.Copies" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.LLTranslator.SynthSymbol.#ctor" -->
+        <member name="M:SDT.LLTranslator.SynthSymbol.Add(SDT.LLTranslator.SynthSymbol)">
+            Добавление другой записи синтеза
+        </member>
+        <!-- Badly formed XML comment ignored for member "F:SDT.LLTranslator.Stack" -->
+        <!-- Badly formed XML comment ignored for member "F:SDT.LLTranslator.Table" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.LLTranslator.#ctor" -->
+        <!-- Badly formed XML comment ignored for member "M:SDT.LLTranslator.Parse(System.Collections.Generic.List{SDT.Symbol})" -->
+        <member name="M:SDT.LLTranslator.DebugMTable">
+            Печать управляющей таблицы
+        </member>
+        <member name="T:SDT.Types.Actions">
+            Функция семантического действия
+        </member>
+        <member name="T:SDT.Types.Attrs">
+            Словарь атрибутов
+        </member>
+        <member name="T:SDT.Actions">
+            "Таблица" со стандартными семантическими действиями
+        </member>
+        <member name="M:SDT.Actions.Print(System.Object)">
+            Печать something  консоль
+        </member>
+    </members>
+</doc>
