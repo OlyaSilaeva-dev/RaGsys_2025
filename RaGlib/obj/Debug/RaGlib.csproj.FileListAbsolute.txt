@@ -47,3 +47,10 @@ C:\Users\olya-\OneDrive\Рабочий стол\МАИ\теория_автома
 C:\Users\olya-\OneDrive\Рабочий стол\МАИ\теория_автоматов\code\RaGsys 2025 v0.3\RaGlib\obj\Debug\RaGlib.dll
 C:\Users\olya-\OneDrive\Рабочий стол\МАИ\теория_автоматов\code\RaGsys 2025 v0.3\RaGlib\obj\Debug\RaGlib.pdb
 C:\Users\olya-\OneDrive\Рабочий стол\МАИ\теория_автоматов\code\RaGsys 2025 v0.3\RaGlib\bin\Debug\RaGlib.xml
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\bin\Debug\RaGlib.xml
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\bin\Debug\RaGlib.dll
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\bin\Debug\RaGlib.pdb
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\obj\Debug\RaGlib.csproj.AssemblyReference.cache
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\obj\Debug\RaGlib.csproj.CoreCompileInputs.cache
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\obj\Debug\RaGlib.dll
+C:\src\GitHub\RaGsys 2025 v0.3\RaGlib\obj\Debug\RaGlib.pdb

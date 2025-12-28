@@ -2836,7 +2836,7 @@ namespace RaGsystems
                                     // 8. Проверка строки
                                     Console.WriteLine("\nВведите строку для проверки (например: aabbcc):");
                                     string input = Console.ReadLine();
-                                    lba.ExecuteLBA(input);
+                                    lba.Execute(input);
 
                                     Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
                                     Console.ReadKey();

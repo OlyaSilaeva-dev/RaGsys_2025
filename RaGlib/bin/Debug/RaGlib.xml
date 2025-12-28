@@ -158,6 +158,11 @@
             поддерживающий операционные символы.
             </summary>
         </member>
+        <member name="M:RaGlib.LBA.PrintTransitions">
+            <summary>
+            Вывод дельта-правил
+            </summary>
+        </member>
         <member name="T:RaGlib.CanonicalLRParser">
             Канонический LR(1)
             **Важно**:

@@ -127,8 +127,8 @@ namespace RaGlib.Grammars
                     Symbol A = φ[0];
 
                     // Генерируем новые уникальные символы
-                    var A1 = new Symbol($"A1_{counter}");
-                    var A2 = new Symbol($"A2_{counter}");
+                    var A1 = new Symbol($"A1{counter}");
+                    var A2 = new Symbol($"A2{counter}");
                     counter++;
 
                     newNonTerminals.Add(A1);
@@ -152,8 +152,8 @@ namespace RaGlib.Grammars
                     var φ_double_prime = φ.Skip(2).ToList();
 
                     // Генерируем новые уникальные символы
-                    var A_prime = new Symbol($"A_{counter}");
-                    var E_prime = new Symbol($"E_{counter}");
+                    var A_prime = new Symbol($"A{counter}");
+                    var E_prime = new Symbol($"E{counter}");
                     counter++;
 
                     newNonTerminals.Add(A_prime);
