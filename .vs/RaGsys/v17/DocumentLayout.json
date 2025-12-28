@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\",
+  "WorkspaceRootPath": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|c:\\users\\olya-\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043C\u0430\u0438\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\ragsys 2025 v0.3\\raglib\\linearboundedautomaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|c:\\src\\github\\ragsys 2025 v0.3\\raglib\\linearboundedautomaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\linearboundedautomaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\raglib\\automata\\turingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\automata\\turingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\automata\\turingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CB67BDF-CDF7-4CBF-8888-966160285C8C}|RaGsys\\RaGsys.csproj|C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\ragsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CB67BDF-CDF7-4CBF-8888-966160285C8C}|RaGsys\\RaGsys.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\ragsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CB67BDF-CDF7-4CBF-8888-966160285C8C}|RaGsys\\RaGsys.csproj|solutionrelative:ragsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\raglib\\llparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\llparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\llparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\raglib\\core\\csproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\core\\csproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\core\\csproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\raglib\\core\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\core\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\core\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,11 +38,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -52,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGsys\\Program.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGsys\\Program.cs",
               "RelativeDocumentMoniker": "RaGsys\\Program.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGsys\\Program.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGsys\\Program.cs",
               "RelativeToolTip": "RaGsys\\Program.cs",
               "ViewState": "AgIAALoKAAAAAAAAAAAAANEKAACAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CSGrammar.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs",
               "RelativeDocumentMoniker": "RaGlib\\Grammars\\CSGrammar.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs",
               "RelativeToolTip": "RaGlib\\Grammars\\CSGrammar.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAA5wC0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,26 +80,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LinearBoundedAutomaton.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\LinearBoundedAutomaton.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\LinearBoundedAutomaton.cs",
               "RelativeDocumentMoniker": "RaGlib\\LinearBoundedAutomaton.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\LinearBoundedAutomaton.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\LinearBoundedAutomaton.cs",
               "RelativeToolTip": "RaGlib\\LinearBoundedAutomaton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswGUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T13:54:10.67Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TuringMachine.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Automata\\TuringMachine.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Automata\\TuringMachine.cs",
               "RelativeDocumentMoniker": "RaGlib\\Automata\\TuringMachine.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Automata\\TuringMachine.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Automata\\TuringMachine.cs",
               "RelativeToolTip": "RaGlib\\Automata\\TuringMachine.cs",
               "ViewState": "AgIAANIAAAAAAAAAAAAmwO4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,9 +105,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LLParser.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\LLParser.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\LLParser.cs",
               "RelativeDocumentMoniker": "RaGlib\\LLParser.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\LLParser.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\LLParser.cs",
               "RelativeToolTip": "RaGlib\\LLParser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -117,9 +117,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CSProduction.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Core\\CSProduction.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Core\\CSProduction.cs",
               "RelativeDocumentMoniker": "RaGlib\\Core\\CSProduction.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Core\\CSProduction.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Core\\CSProduction.cs",
               "RelativeToolTip": "RaGlib\\Core\\CSProduction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Production.cs",
-              "DocumentMoniker": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Core\\Production.cs",
+              "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Core\\Production.cs",
               "RelativeDocumentMoniker": "RaGlib\\Core\\Production.cs",
-              "ToolTip": "C:\\Users\\olya-\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041C\u0410\u0418\\\u0442\u0435\u043E\u0440\u0438\u044F_\u0430\u0432\u0442\u043E\u043C\u0430\u0442\u043E\u0432\\code\\RaGsys 2025 v0.3\\RaGlib\\Core\\Production.cs",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Core\\Production.cs",
               "RelativeToolTip": "RaGlib\\Core\\Production.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
