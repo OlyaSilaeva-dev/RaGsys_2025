@@ -158,10 +158,37 @@
             поддерживающий операционные символы.
             </summary>
         </member>
+        <member name="T:RaGlib.LBA">
+            <summary>
+            Linear Bounded Automat
+            </summary>
+        </member>
+        <member name="M:RaGlib.LBA.FromCSG(RaGlib.Grammars.CSGrammar)">
+            <summary>
+            Функция перевода КЗ грамматики в ЛОА
+            </summary>
+            <param name="grammar"></param>
+            <returns></returns>
+        </member>
         <member name="M:RaGlib.LBA.PrintTransitions">
             <summary>
             Вывод дельта-правил
             </summary>
+        </member>
+        <member name="M:RaGlib.LBA.HasRule(System.String,System.String)">
+            <summary>
+            Проверка на наличие правил по состоянию и читаемому символу
+            </summary>
+            <param name="fromState"></param>
+            <param name="readSymbol"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RaGlib.LBA.Execute(System.String)">
+            <summary>
+            Проверка цепочки на принадлежность недетерменированному автомату
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
         </member>
         <member name="T:RaGlib.CanonicalLRParser">
             Канонический LR(1)

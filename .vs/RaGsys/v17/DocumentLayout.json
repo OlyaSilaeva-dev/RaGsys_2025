@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CB67BDF-CDF7-4CBF-8888-966160285C8C}|RaGsys\\RaGsys.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\ragsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CB67BDF-CDF7-4CBF-8888-966160285C8C}|RaGsys\\RaGsys.csproj|c:\\src\\github\\ragsys 2025 v0.3\\ragsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CB67BDF-CDF7-4CBF-8888-966160285C8C}|RaGsys\\RaGsys.csproj|solutionrelative:ragsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|c:\\src\\github\\ragsys 2025 v0.3\\raglib\\linearboundedautomaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\linearboundedautomaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\linearboundedautomaton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|solutionrelative:raglib\\grammars\\csgrammar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E02F40B-0F0C-40DC-B358-0C86CCFF629B}|RaGlib\\RaGlib.csproj|C:\\src\\GitHub\\RaGsys 2025 v0.3\\raglib\\automata\\turingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 206,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,42 +54,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGsys\\Program.cs",
               "RelativeDocumentMoniker": "RaGsys\\Program.cs",
-              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGsys\\Program.cs",
-              "RelativeToolTip": "RaGsys\\Program.cs",
-              "ViewState": "AgIAAK8KAAAAAAAAAADgvxYLAAAvAAAAAAAAAA==",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGsys\\Program.cs*",
+              "RelativeToolTip": "RaGsys\\Program.cs*",
+              "ViewState": "AgIAADILAAAAAAAAAADwv0YLAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T15:02:12.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CSGrammar.cs",
               "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs",
               "RelativeDocumentMoniker": "RaGlib\\Grammars\\CSGrammar.cs",
-              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs*",
-              "RelativeToolTip": "RaGlib\\Grammars\\CSGrammar.cs*",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAwKcAAAAjAAAAAAAAAA==",
+              "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\Grammars\\CSGrammar.cs",
+              "RelativeToolTip": "RaGlib\\Grammars\\CSGrammar.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwKcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T14:01:20.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T14:01:20.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LinearBoundedAutomaton.cs",
               "DocumentMoniker": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\LinearBoundedAutomaton.cs",
               "RelativeDocumentMoniker": "RaGlib\\LinearBoundedAutomaton.cs",
               "ToolTip": "C:\\src\\GitHub\\RaGsys 2025 v0.3\\RaGlib\\LinearBoundedAutomaton.cs",
               "RelativeToolTip": "RaGlib\\LinearBoundedAutomaton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAwwAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-27T13:54:10.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T13:54:10.67Z"
             },
             {
               "$type": "Document",

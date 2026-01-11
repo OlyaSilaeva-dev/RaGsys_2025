@@ -7,6 +7,9 @@ using System.Runtime.Remoting.Messaging;
 
 namespace RaGlib
 {
+    /// <summary>
+    /// Linear Bounded Automat
+    /// </summary>
     public class LBA
     {
 
@@ -31,6 +34,11 @@ namespace RaGlib
             Transitions.Add(new TMTransition(fromState, read, write, dir, toState));
         }
 
+        /// <summary>
+        /// Функция перевода КЗ грамматики в ЛОА
+        /// </summary>
+        /// <param name="grammar"></param>
+        /// <returns></returns>
         public static LBA FromCSG(CSGrammar grammar)
         {
             var T = grammar.Terminals.Select(t => t.symbol).ToList();
@@ -174,6 +182,12 @@ namespace RaGlib
             }
         }
 
+        /// <summary>
+        /// Проверка на наличие правил по состоянию и читаемому символу
+        /// </summary>
+        /// <param name="fromState"></param>
+        /// <param name="readSymbol"></param>
+        /// <returns></returns>
         public bool HasRule(string fromState, string readSymbol)
         {
             return FindTransition(fromState, readSymbol) != null;
@@ -184,6 +198,11 @@ namespace RaGlib
             return Transitions.FirstOrDefault(t => t.FromState == state && t.ReadSymbol == symbol);
         }
 
+        /// <summary>
+        /// Проверка цепочки на принадлежность недетерменированному автомату
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public bool Execute(string input)
         {
             List<string> tape = new List<string> { "$" };

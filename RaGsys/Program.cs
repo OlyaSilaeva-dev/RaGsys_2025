@@ -2790,11 +2790,9 @@ namespace RaGsystems
                             Console.ReadLine();
                         }
                         break;
+                    // генератор ЛОА для грамматики a^n b^n c^n
                     case "21":
                         {
-                            Console.OutputEncoding = Encoding.UTF8;
-                            Console.Clear();
-
                             Console.WriteLine("=== ГЕНЕРАТОР И ПРОВЕРКА ЛОА ===");
                             Console.WriteLine(new string('═', 60));
 
@@ -2819,22 +2817,80 @@ namespace RaGsystems
                                 };
 
                                 var grammar = new CSGrammar(terminals, nonTerminals, productions, startSymbol);
+                                grammar.PrintGrammar();
 
                                 if (grammar.IsContextSensitive())
                                 {
                                     var lg = grammar.ToOrderTwo();
-                                    Console.WriteLine("\n--- Линейная грамматика(порядка 2) ---\n");
+                                    Console.WriteLine("\n--- Линейная грамматика ---\n");
                                     lg.PrintGrammar();
-
-                                    //var lbg = lg.ToLinearBoundedGrammar();
-                                    //Console.WriteLine("\n--- Линейно ограниченная грамматика ---\n");
-                                    //lg.PrintGrammar();
 
                                     var lba = LBA.FromCSG(lg);
                                     lba.PrintTransitions();
 
                                     // 8. Проверка строки
                                     Console.WriteLine("\nВведите строку для проверки (например: aabbcc):");
+                                    string input = Console.ReadLine();
+                                    lba.Execute(input);
+
+                                    Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
+                                    Console.ReadKey();
+                                }
+                                else
+                                {
+                                    Console.WriteLine("\n❌ Грамматика не является контекстно-зависимой!");
+                                    Console.ReadKey();
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine($"\n❌ Ошибка: {ex.Message}");
+                                Console.WriteLine("Нажмите любую клавишу для продолжения...");
+                                Console.ReadKey();
+                            }
+                            break;
+                        }
+                    // генератор ЛОА для a^m b^n c^m d^n
+                    case "22" :
+                        {
+
+                            Console.WriteLine("=== ГЕНЕРАТОР И ПРОВЕРКА ЛОА ===");
+                            Console.WriteLine(new string('═', 60));
+
+                            try
+                            {
+                                var terminals = new HashSet<Symbol> { "a", "b", "c", "d" };
+                                var nonTerminals = new HashSet<Symbol> { "S", "R", "T", "C", "B" };
+                                var startSymbol = new Symbol("S");
+
+                                var productions = new List<CSProduction>
+                                {
+                                    new CSProduction(new List<Symbol> { "S" }, new List<Symbol> { "R", "T" }),
+                                    new CSProduction(new List<Symbol> { "R" }, new List<Symbol> { "a", "R", "C" }),
+                                    new CSProduction(new List<Symbol> { "R" }, new List<Symbol> { "a", "C" }),
+                                    new CSProduction(new List<Symbol> { "T" }, new List<Symbol> { "B", "T", "d" }),
+                                    new CSProduction(new List<Symbol> { "T" }, new List<Symbol> { "B", "d" }),
+                                    new CSProduction(new List<Symbol> { "C", "B" }, new List<Symbol> { "B", "C" }),
+                                    new CSProduction(new List<Symbol> { "a", "B" }, new List<Symbol> { "a", "b" }),
+                                    new CSProduction(new List<Symbol> { "b", "B" }, new List<Symbol> { "b", "b" }),
+                                    new CSProduction(new List<Symbol> { "C", "d" }, new List<Symbol> { "c", "d" }),
+                                    new CSProduction(new List<Symbol> { "C", "c" }, new List<Symbol> { "c", "c" }),
+                                };
+
+                                var grammar = new CSGrammar(terminals, nonTerminals, productions, startSymbol);
+                                grammar.PrintGrammar();
+
+                                if (grammar.IsContextSensitive())
+                                {
+                                    var lg = grammar.ToOrderTwo();
+                                    Console.WriteLine("\n--- Линейная грамматика ---\n");
+                                    lg.PrintGrammar();
+
+                                    var lba = LBA.FromCSG(lg);
+                                    lba.PrintTransitions();
+
+                                    // 8. Проверка строки
+                                    Console.WriteLine("\nВведите строку для проверки (например: aaabbcccdd):");
                                     string input = Console.ReadLine();
                                     lba.Execute(input);
 
